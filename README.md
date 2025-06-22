@@ -1,7 +1,7 @@
 ### creating boot log persistent
-sudo mkdir -p /var/log/journal
-sudo systemd-tmpfiles --create --prefix /var/log/journal
-sudo systemctl restart systemd-journald
+<p>sudo mkdir -p /var/log/journal</p>
+<p>sudo systemd-tmpfiles --create --prefix /var/log/journal</p>
+<p>sudo systemctl restart systemd-journald</p>
 
-journalctl -k -b -1     # Previous boot
-journalctl -k -b 0      # Current boot
+<p>journalctl -k -b -1     # Previous boot</p>
+<p>journalctl -k -b 0      # Current boot</p>
