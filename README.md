@@ -6,4 +6,5 @@
 <p>journalctl -k -b -1     # Previous boot</p>
 <p>journalctl -k -b 0      # Current boot</p>
 
+
 [kernel book]([https://sysprog21.github.io/lkmpg/](https://lwn.net/Kernel/LDD3/))
