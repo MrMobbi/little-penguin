@@ -1,0 +1,12 @@
+
+dmesg		# boot log
+journalctl	# journal info ot the kernel
+
+inmod		# load the module
+rmmod		# remove the module
+
+modinfo		# info of the module
+
+lsmod		# list modules	
+
+

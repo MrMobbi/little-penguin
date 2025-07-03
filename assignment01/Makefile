@@ -8,3 +8,6 @@ all:
 
 clean:
 	make -C $(KDIR) M=$(PWD) clean
+
+cs:
+	cat ../cheatsheet
