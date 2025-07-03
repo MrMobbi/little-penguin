@@ -7,4 +7,5 @@
 <p>journalctl -k -b 0      # Current boot</p>
 
 
-[kernel book](https://lwn.net/Kernel/LDD3/)
+<p>[kernel book](https://lwn.net/Kernel/LDD3/)</p>
+<p>[kernel compile](https://itsfoss.com/compile-linux-kernel/)</p>
