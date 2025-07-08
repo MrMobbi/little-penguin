@@ -1,0 +1,13 @@
+diff --color -rupN linux/Makefile linux-patch/Makefile
+--- linux/Makefile	2025-07-08 17:23:28.500007366 +0200
++++ linux-patch/Makefile	2025-07-08 17:29:57.990013355 +0200
+@@ -2,7 +2,7 @@
+ VERSION = 6
+ PATCHLEVEL = 16
+ SUBLEVEL = 0
+-EXTRAVERSION = -rc5
++EXTRAVERSION = -thor_kernel
+ NAME = Baby Opossum Posse
+ 
+ # *DOCUMENTATION*
+Binary files linux/tools/objtool/objtool and linux-patch/tools/objtool/objtool differ
