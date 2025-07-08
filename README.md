@@ -9,3 +9,4 @@
 
 <p>[kernel book](https://lwn.net/Kernel/LDD3/)</p>
 <p>[kernel compile](https://itsfoss.com/compile-linux-kernel/)</p>
+<p>[patch](https://www.cs.sfu.ca/~ashriram/Courses/CS300/assets/distrib/HW6/Guide_KernelPatches.pdf)</p>
