@@ -3,7 +3,7 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 
-MODULE_LICENSE("GPL");
+MODULE_LICENSE("GPL"); // General public license
 MODULE_AUTHOR("Mathias Julliat");
 MODULE_DESCRIPTION("Hello World!");
 
@@ -13,7 +13,7 @@ static int	__init hello_init(void)
 	return (0);
 }
 
-void	__exit	hello_exit(void)
+static void	__exit	hello_exit(void)
 {
 	printk(KERN_INFO "Cleaning up module.\n");
 }
